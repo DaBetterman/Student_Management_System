@@ -2,11 +2,10 @@
 
 /**
 * main - where things start!
-*
-*
+* Return: Zero on success
 */
 
-int main (void)
+int main(void)
 {
 	student person1; /*name, age, address, gender*/
 	ssize_t  count;
