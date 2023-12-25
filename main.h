@@ -26,5 +26,7 @@ typedef struct Student
 
 } student;
 
+student create_person();
+FILE *save_in_file();
 
 #endif /* MAIN_H */
