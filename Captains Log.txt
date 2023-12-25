@@ -1,0 +1,4 @@
+25/12/23 - Recreated the whole program from scratch and started this Captians Log to be honest and truthfull towards my learnings.
+    So far I have created the template for the Student Management System (SMS) and I got curious to how I will be able to store this information within a .txt file. Please bear in mind that I am trying my best to implement
+    all of this from memory. I managed to store the data in a .txt file which will be created automatically and if there is content within the file it will append after adding a newline to seperate the data.
+    After testing if everything was working I placed it all in seperate functions, run another test and called it a day.
