@@ -5,7 +5,7 @@ student create_person()
     student person1; /*name, age, address, gender*/
 	ssize_t  count;
 	int number;
-
+	person1.name = NULL;
 	printf("What is your Name\n");
 	number = getline(&person1.name, &count, stdin);
 
@@ -19,7 +19,7 @@ student create_person()
 		fprintf(stderr, "Stop playing...");
 		return (person1);
 	}
-
+	person1.surname = NULL;
 	printf("What is your Surname\n");
 	number = getline(&person1.surname, &count, stdin);
 
@@ -49,7 +49,7 @@ student create_person()
 		fprintf(stderr, "Not ready to apply yet\n");
 		return (person1);
 	}
-
+	person1.address = NULL;
 	printf("What is your Address\n");
 	getchar();
 	number = getline(&person1.address, &count, stdin);
@@ -65,7 +65,7 @@ student create_person()
 		fprintf(stderr, "Give me your address or else...\n");
 		return (person1);
 	}
-
+	person1.gender = NULL;
 	printf("What is your Sex\n");
 	number = getline(&person1.gender, &count, stdin);
 

@@ -2,3 +2,8 @@
     So far I have created the template for the Student Management System (SMS) and I got curious to how I will be able to store this information within a .txt file. Please bear in mind that I am trying my best to implement
     all of this from memory. I managed to store the data in a .txt file which will be created automatically and if there is content within the file it will append after adding a newline to seperate the data.
     After testing if everything was working I placed it all in seperate functions, run another test and called it a day.
+29/12/23 - After carefully thinking about how to implement the hash table within my code without removing the save_file() function where the data gets stored in a .txt file.
+    I decided to not store any data on the program except for the current input data. I also thought that this program would be better if I use fgets() and just have
+    the function read through the .txt file and look for the name of a person and if they are located within the document. Unfortunately that will not help me print their data. for
+    now I have completed this project and will return back to it again in a couple of weeks to have a good laugh about all the mistakes I made and where I cold have improved in my code.
+    

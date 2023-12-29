@@ -1,17 +1,5 @@
-Name: Tony
-Surname: Stark
-Age: 45
-Address: 77 Avengers Tower, New York
-Sex: Male
-
-Name: Mia
-Surname: The Bee
-Age: 9
-Address: 833 Beehive Avenue, Treeville
-Sex: Female
-
-Name: Ebrahim
-Surname: Rhode
-Age: 35
-Address: 12 Unknown avenue
+Name: Tony Stark
+Surname: Junior
+Age: 46
+Address: 88 Stark Tower, New York
 Sex: Male
